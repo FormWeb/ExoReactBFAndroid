@@ -3,6 +3,7 @@ import './App.css';
 import Bonjour from './components/bonjour/Bonjour';
 import ProductList from './components/product-list/ProductList';
 import Counter from './components/counter/Counter';
+import Calculator from './components/calculator/Calculator';
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
       <h1>Exo 03</h1>
       <Counter></Counter>
       <Counter incrementation={10}></Counter>
+      <h1>Exo 04</h1>
+      <Calculator></Calculator>
     </div>
   );
 }
